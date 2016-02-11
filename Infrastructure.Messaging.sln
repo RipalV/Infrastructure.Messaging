@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Messaging.Contracts", "Source\Infrastructure.Messaging.Contracts\Infrastructure.Messaging.Contracts.csproj", "{8418C7B0-814B-429F-B3E1-56786795D95B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Messaging.AzureServiceBus", "Source\Infrastructure.Messaging.AzureServiceBus\Infrastructure.Messaging.AzureServiceBus.csproj", "{8D852278-49D8-4279-BC5C-92014D2177A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8418C7B0-814B-429F-B3E1-56786795D95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8418C7B0-814B-429F-B3E1-56786795D95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8418C7B0-814B-429F-B3E1-56786795D95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8418C7B0-814B-429F-B3E1-56786795D95B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D852278-49D8-4279-BC5C-92014D2177A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D852278-49D8-4279-BC5C-92014D2177A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D852278-49D8-4279-BC5C-92014D2177A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D852278-49D8-4279-BC5C-92014D2177A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
